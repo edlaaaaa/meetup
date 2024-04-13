@@ -73,7 +73,7 @@ class App extends Component{
                 <Route exact path="/register" Component={Register}/>
                 <NotFound/>
             </Switch>
-            </RegisterContext.Provider>
+            <RegisterContext.Provider/>
         )
     }
 }
