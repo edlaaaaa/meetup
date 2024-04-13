@@ -6,7 +6,7 @@ import Home from './components/Home'
 
 import NotFound from './components/NotFound'
 
-import NotFound from './components/RegisterContext'
+import RegisterContext   from './components/RegisterContext'
 
 import './App.css'
 

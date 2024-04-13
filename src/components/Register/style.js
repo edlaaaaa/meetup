@@ -24,7 +24,7 @@ export const RegisterHeading = styled.h1`
   font-family: 'Roboto';
 `
 
-export const inputContainer = styled.div`
+export const InputContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -57,7 +57,7 @@ export const Select = styled.select`
   outline: none;
   margin-bottom: 8px;
 `
-export const Registerbutton = styled.button`
+export const RegisterButton = styled.button`
   background-color: #3b82f6;
   color: #ffffff;
   font-family: 'Roboto';
