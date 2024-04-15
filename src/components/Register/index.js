@@ -103,8 +103,7 @@ const Register=props=>(
                                  </Select>
                              </InputContainer>
                              <RegisterButton type="submit">Register Now</RegisterButton>
-                             {showError===true?(
-                                 <ErrorMsg>Please enter your name</ErrorMsg>
+                             {showError && <ErrorMsg>Please enter your name</ErrorMsg>
                              ):(
                              )}
                          </Form>
