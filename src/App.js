@@ -5,7 +5,6 @@ import Register from './components/Register'
 import Home from './components/Home'
 
 import NotFound from './components/NotFound'
-import RegisterContext from '../Context/RegisterContext'
 
 import RegisterContext from './components/Context/RegisterContext'
 
