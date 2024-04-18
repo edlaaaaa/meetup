@@ -2,7 +2,7 @@ import Header from '../Header'
 import RegisterContext from '../Context/RegisterContext'
 
 import {
-  RegisteredContainer,
+  RegisterContainer,
   RegisterImg,
   Form,
   RegisterHeading,
@@ -104,7 +104,6 @@ const Register = props => (
                 </InputContainer>
                 <RegisterButton type="submit">Register Now</RegisterButton>
                 {showError && <ErrorMsg>Please enter your name</ErrorMsg>}
-                ):( )}
               </Form>
             </RegisterContainer>
           </div>
