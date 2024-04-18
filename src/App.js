@@ -10,7 +10,6 @@ import RegisterContext from './components/Context/RegisterContext'
 
 import './App.css'
 
-// These are the lists used in the application. You can move them to any component needed.
 const topicsList = [
   {
     id: 'ARTS_AND_CULTURE',
