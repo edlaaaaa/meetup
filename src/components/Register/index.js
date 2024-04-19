@@ -57,12 +57,12 @@ const Register = props => (
       const submitRegistration = event => {
         event.preventDefault()
 
-        if (name === '' && topic === '') {
+        if (name === '') {
+          updateError()
+        } else {
           const {history} = props
           history.replace('/')
           registerName()
-        } else {
-          updateError()
         }
       }
 
